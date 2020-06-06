@@ -13,7 +13,7 @@ b=0.0000045;
 %Values for one cell (to get fast simulations)
 Rt=49164;
 
-%Number of tetraliganded receptors for 60, 120 and 220 nM IP3
+%Number of tetraliganded receptors
 N1=Rt*(60/(60+794))^4;
 N2=Rt*(120/(120+794))^4;
 N3=Rt*(220/(220+794))^4;
